@@ -1,0 +1,306 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*, ul, li {
+	margin: 0;
+	padding: 0;
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {	
+	font-size: 10px;
+	width: 100%;	
+	font-family: "Tahoma",Arial,Verdana,Helvetica,sans-serif;
+	background-color: #fff;
+	color: #778;
+
+}
+
+p {
+	font-size: 1.2rem;
+	margin: 1% 0 2%;
+
+}
+
+h1 {
+	color: #FDFDFC;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-style: italic;
+	padding: 3% 0;
+	float: left;
+	height: auto;
+}
+
+h2 {
+	font-size: 1.6rem;
+	color: #778;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+h5 { 
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin: 4% 0 3%;
+
+}
+
+
+header {
+	clear: both;
+}
+
+.topo {
+	background-color: #024B77;
+	height: auto;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.logo {
+
+	min-width: 20%;
+	height: auto;
+	float: left;
+	margin: 1.5% 0 0 3%;
+	position: relative;
+
+}
+
+
+.conteudo {
+
+	width: 96%;
+	margin: 40px auto;
+	height: auto;
+	position: relative;
+	clear: both;
+}
+
+.menu {
+	width: 100%;
+	padding: 0;
+	margin: 0 0 30px;
+	background-color: #3F94C7;
+	position: relative;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+	clear: both;
+	overflow: hidden;
+}
+
+
+.menu ul li {
+	width: 16.66%;
+	margin: 0 0;
+	float: left;
+	text-align: center;
+	height: auto;
+	list-style: none;
+
+
+}
+
+.menu ul li a {
+	font: bold 1.2rem "Tahoma";
+	color: #fff;
+	text-decoration: none;
+	background-color: #3F94C7;
+	width: 100%;
+	padding: 20px 0;
+	display: inline-block;
+	height: auto;
+	transition: background-color 1s ease-in-out 0s;
+
+}
+
+.menu ul li a:hover {
+	background-color: #024B77;
+	text-decoration: underline;
+
+}
+
+.menu ul li a:active {
+	text-decoration: underline;
+
+}
+
+.principal {
+	background-color: rgba(255, 255, 255, 1);
+	width: 70%;
+	height: auto;
+	margin: 0 3% 5% 0;
+	position: relative;
+	float: left;
+	padding: 4%;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	
+
+}
+
+.principal-left {
+	width: 50%;
+	height: auto;
+
+
+}
+
+.contato {
+	width: 37%;
+	position: absolute;
+	background-image: url(../imagens/tachinha.png);
+	background-repeat: no-repeat;
+	background-size: 28%;
+	background-position: top right;
+	bottom: 5%;
+	right: 3%;
+	text-align: left;
+	background-color: rgba(253, 232, 89, 0.7);
+	padding: 3%;
+	color: #555;
+	clear: both;
+	box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.contato p {
+	margin: 3% 0 5% 0;
+}
+
+.lateral {
+	width: 26%;
+	float: right;
+	text-align: right;
+
+}
+
+
+.lateral ul li {
+	width: 100%;
+	display: inline-block;
+	margin: 0 0 11%;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.outros-sites {
+	clear: both;
+}
+
+
+.outros-sites ul {
+	border-top: 3px dotted #3F94C7;
+
+	padding: 20px 0;
+
+
+}
+
+.outros-sites ul li {
+	width: 22.8%;
+	display: inline-block;
+	margin: 0 1%;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.outros-sites ul li img, .lateral ul li img{
+	width: 100%;
+	display: inline-block;
+}
+
+
+footer {
+	background-color: #024B77;
+	height: auto;
+	clear: both;
+	margin: 3% 0 0;
+	padding: 1.5% 1%;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.rodape {
+	width: 36%;
+	height: auto;
+	margin: 0 2%;
+	float: left;
+
+}
+
+footer p {
+	font-size: 0.8rem;
+	color: #FDFDFC;
+	margin: 0.2% 0;
+	float: left;
+	display: block;
+	position: relative;
+	left: 6%;
+	width: 88%;
+
+	
+}
+
+.dest {
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 1rem;
+}
+
+footer img {
+	float: left;
+	position: relative;
+	top: 10px;
+	display: block;
+	width: 12%;
+
+}
+
+.assinatura {
+	float: right;
+	width: 20%;
+	margin: 3% 0 0 0;
+	text-align: right;
+
+}
+
+/*================ Outras Páginas ====================*/
+
+.principal a{
+	font-size: 1.2rem;
+	margin: 1% 0 2% 3%;
+	color: #3F94C7;
+	display: block;
+	padding: 1%;
+	text-decoration: none;
+	border: 1px solid #024B77;
+	width: auto;
+	transition: background-color 1s ease-in-out 0s, font-size 1s ease 0s;
+}
+
+.principal a:hover{
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #024B77;
+
+}
